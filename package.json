@@ -1,0 +1,8 @@
+{
+  "name": "region0",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "~4.8.8",
+    "mongoskin": "^1.4.1"
+  }
+}

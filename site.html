@@ -1,0 +1,49 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Region 0</title>
+
+    <!-- Bootstrap -->
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+  </head>
+  <body ng-app="region0">
+  
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
+    <script type="text/javascript" src="client.js"></script>
+    <nav class="navbar navbar-default">
+    	<div class="container-fluid">
+    		<div class="navbar-header">
+    			<a class="navbar-brand" href="#">Region 0</a>
+    			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		          <span class="sr-only">Toggle navigation</span>
+		          <span class="icon-bar"></span>
+		          <span class="icon-bar"></span>
+		          <span class="icon-bar"></span>
+		        </button>
+    		</div>
+    		<div class="collapse navbar-collapse">
+	    		<ul class="nav navbar-nav">
+	    			<li><a href="#">Alerts</a></li>
+	    			<li><a href="#">Search</a></li>
+	    			<li><a href="#">Profile</a></li>
+	    		</ul>
+    		</div>
+    	</div>
+    </nav>
+    <div id="content" class="container" ng-controller='calendarController'/>
+
+ </body>
+</html>

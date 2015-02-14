@@ -1,0 +1,61 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'mongoskin@1.4.1',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json region0@0.0.1 No description
+5 warn package.json region0@0.0.1 No repository field.
+6 warn package.json region0@0.0.1 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'mongoskin@1.4.1', null ]
+9 verbose cache add name=undefined spec="mongoskin@1.4.1" args=["mongoskin@1.4.1",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'mongoskin@1.4.1',
+10 verbose parsed url   path: 'mongoskin@1.4.1',
+10 verbose parsed url   href: 'mongoskin@1.4.1' }
+11 verbose cache add name="mongoskin" spec="1.4.1" args=["mongoskin","1.4.1"]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: '1.4.1',
+12 verbose parsed url   path: '1.4.1',
+12 verbose parsed url   href: '1.4.1' }
+13 verbose addNamed [ 'mongoskin', '1.4.1' ]
+14 verbose addNamed [ '1.4.1', '1.4.1' ]
+15 silly lockFile 4a9ad086-mongoskin-1-4-1 mongoskin@1.4.1
+16 verbose lock mongoskin@1.4.1 /Users/marciedavis/.npm/4a9ad086-mongoskin-1-4-1.lock
+17 silly lockFile 4a9ad086-mongoskin-1-4-1 mongoskin@1.4.1
+18 error Error: Attempt to unlock mongoskin@1.4.1, which hasn't been locked
+18 error     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:44:11)
+18 error     at cb (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:32:5)
+18 error     at /usr/local/lib/node_modules/npm/lib/cache/add-named.js:41:20
+18 error     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:30:7
+18 error     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+18 error     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+18 error     at Object.oncomplete (fs.js:107:15)
+19 error If you need help, you may report this *entire* log,
+19 error including the npm and node versions, at:
+19 error     <http://github.com/npm/npm/issues>
+20 error System Darwin 14.1.0
+21 error command "node" "/usr/local/bin/npm" "install" "mongoskin@1.4.1" "--save"
+22 error cwd /Users/marciedavis/region0
+23 error node -v v0.10.33
+24 error npm -v 1.4.28
+25 verbose exit [ 1, true ]
